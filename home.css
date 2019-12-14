@@ -1,0 +1,113 @@
+
+		*{
+			padding:0;
+			margin:0;
+		}
+		ul,li{
+			list-style: none;
+		}
+		.big{
+			
+			height:600px;
+			border-left:2px solid black;
+			border-right:2px solid black;
+			background: #fff;
+			margin-left:20px;
+			margin-right:20px;
+			position:relative;
+
+		}
+		.box{
+			width:1200px;
+			height:400px;
+			margin:70px auto;
+			position:relative;
+			overflow:hidden;
+		}
+		.slider{
+			width:8400px;
+			position:absolute;
+			left:-1200px;
+		}
+		.slide{
+			width:1200px;
+			overflow:hidden;
+			float:left;
+		}
+		#font{
+
+			background-color: #ccc;
+			height:20px;
+			color:red;
+			font-size:10px;
+			line-height: 20px;
+			position:relative;
+			overflow:hidden;
+
+		}
+		#image{
+			float:left;
+			width:265px;
+		}
+		#font img{
+			
+			margin-top:2px;
+			margin-left:250px;
+		}
+		#bag{
+			width:1000px;
+			height:20px;
+			position:absolute;
+			overflow:hidden;
+			left:280px;
+		}
+		p{
+			width:256.69px;
+			position:absolute;
+			overflow:hidden;
+			left:800px;
+			line-height: 20px;
+
+		}
+
+		.box>span{
+			display:block;
+			width:30px;
+			height:50px;
+			text-align:center;
+			cursor:pointer;
+			color: ;
+			top:175px;
+			line-height: 50px;
+			background:rgb(255,0,0);
+			font-size: 30px;
+			position:absolute;
+			opacity: 0;
+		}
+		#left{
+			left:30px;
+		}
+		#right{
+			right:30px;
+		}
+		.nav{
+			position:absolute;
+			left:500px;
+			bottom:20px;
+			text-align: center;
+		}
+		.nav>li{
+			float:left;
+			width:20px;
+			height:20px;
+			background:#ccc;
+			cursor: pointer;
+			margin:0 10px;
+			border-radius: 50%;
+
+
+		}
+		.nav .active{
+			background:red;
+			color:white;
+		}
